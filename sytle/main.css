@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.container{
+    margin: 0 200px;
+}
+.firts__header{
+    background-color: #000000;
+    ;
+}
+.telephone{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}    
+.telephone__item{
+    display: flex;
+}    
+.telephone__item p{
+    margin: 0 10px;
+    color: #969696;
+}
+.telephone__item p:first-child{
+    margin-left: 0;
+}
+.telephone__item p:last-child{
+    margin-right: 0;
+}
+
+/* second__header */
+.second__header{
+    background-color: #0f0f0f;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__bar1{
+    display: flex;
+    align-items: center;
+}
+.nav__bar2{
+    display: flex;
+    align-items: center;
+}
+.nav__item{
+    margin-left: 20px;
+    padding: 15px 5px;
+}
+.nav__item a{
+    margin: 0;
+}
+
+
+.nav__item a{
+    text-decoration: none;
+    color: #969696;
+
+}
+.active{
+    color: #fff; 
+    background-color: #1F1F1f;
+}
+
+/* porten */
+.porten{
+    text-align: center;
+    background: url(../img/header.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.porten__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 100px auto 80px;
+    text-align: center;
+    width: fit-content;
+    border: 2px solid #fff;
+    
+}
+.img{
+    width: 200px;
+}
+
+.porten__item p{
+    color: #fff;
+    text-align: center;
+    margin: auto 0;
+}
+.porten__text{
+    width: 730px;
+    text-align: center;
+    color: #fff;
+    margin: 60px auto;
+    line-height: 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+/* Features */
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+.features p{
+    color: #fff;
+}
+.features__item1{
+    width: 55%;
+}
+.features__item2{
+    width: 45%;
+}
+
+/* item-1 */
+
+.features__block{
+    padding: 60px;
+}
+.season{
+    text-align: center;
+    
+}
+.season p{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.season__border {
+    margin: 20px auto;
+    width: fit-content;
+    padding: 1px 50px;
+    background-color: #fff;
+}
+.new-season {
+    display: flex;
+    justify-content: space-between;
+}
+.new-season__inner {
+    width: 30%;
+}
+.new-season__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 250px;
+    background-color: #191B1C;
+    
+}
+.new-season__item img{
+    width: 100%;
+}
+
+
+
+/* item2-3 */
+
+.features__inner{
+    width: 100%;
+}
+
+/* item-4 */
+.collection__block{
+    padding: 0;
+    
+}
+
+.p__text{
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.theme p{
+    font-size: 20px;
+    margin: 30px;
+}
+.theme__border{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 1px 50px;
+    background-color: #fff;
+}
+.features__theme {
+    text-align: center;
+}
+.features__inner img{
+    width: 100%;
+}
+
+.theme, .btn__collection{
+    text-transform: uppercase;
+}
+.btn__collection a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn__collection{
+    margin-top: 50px;
+}
+
+
+/* works */
+.new-season{
+    padding: 0 100px;
+}
+.features__block{
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #000000;
+}
+.new-season__inner2{
+    width: 20%;
+    margin-bottom: 30px;
+}
+.new-season__inner2 p{
+    color: #fff;
+    
+}
+.new-season__inner2 p:last-child{
+    margin-top: 10px;
+}
+.season p{
+    color: #fff;
+}
+
+.season__border{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 1px 50px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .new{
+    display: flex;
+    background-color: #000000;
+}
+
+.new-season{
+    padding: 0 30px;
+    width: 55%;
+    height: 500px;
+    
+   
+}
+.season__text p{
+    padding: 40px 0 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+
+}
+.season__text-border{
+    margin: 20px auto;
+    width: fit-content;
+    padding: 1px 40px;
+    background-color: #fff;
+}
+.watch__items{
+    display: flex;
+    justify-content: space-between;
+}
+.season__group{
+    width: 30%;
+    height: auto;
+    
+}
+.season__itom-img{
+    height: 300px;
+    background-color: #1f1f1f;
+}
+.season__itom-img img{
+    width: 100%;
+    margin-top: 40px;
+}
+.season__group p{
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.new-collection{
+    width: 45%;
+}
+.new-collection img{
+    width: 100%;
+}
+
+.new2{
+    width: 100%;
+    background-color: #000000;
+}
+.new2__inner{
+    width: 45%;
+
+}
+.new2__inner img{
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
